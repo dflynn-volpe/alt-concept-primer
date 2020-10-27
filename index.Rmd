@@ -1,0 +1,26 @@
+--- 
+title: "An Alternative VisionEval Concepts Primer"
+author: "Tara Weidner, Rick Donnelly, et al."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [primer.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is an adaptation of the bookdown example for rehosting the VisionEval Concepts Primer."
+---
+
+a[href='green'] {
+    color: green;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+# Preface {-}
+
+This is an adaptation of the VisionEval **Concepts Primer** put together by Tara Weidner. It reorganizes the content a bit and attempts to create a version with decent lexicon that doesn't get in the way of reading the text. In this adaptation VisionEval keywords are defined only in their first instance rather than every time they appear, as was the case in the original primer. In this version we will attempt to indicate keywords in <a href="green">green</a>, both in first and subsequent instances. However, Github strips colors using HTML tags, so we'll have to be clever about how we do this.
+
+One thing we want to quickly understand is how [_auto sufficiency_](https://github.com/rickdonnelly/alt-concept-primer/lexicon.md#auto-sufficiency) might be viewed in the text. 
