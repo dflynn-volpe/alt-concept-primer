@@ -1,2 +1,1 @@
-# alt-concept-primer
-Alternate VisionEval Concept Primer in bookdown format
+This is an alternate VisionEval Concept Primer in bookdown format that I hope to link to standalone lexicon
