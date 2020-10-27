@@ -16,7 +16,9 @@
 
 8 transit service modes
 
-age group
+age group {#age-group}
+: VisionEval uses the same age groups used in the U.S. Census: 0-14, 15-19, 20-29, 30-54, 55-64, and 65+ years old. The number of persons in each age group are defined for each synthetic household.
+:[Additional details](https://github.com/gregorbj/Archive-VisionEval/blob/master/api/model_system_design.md#8111-model-estimation-datasets)
 
 annual registration fees
 
@@ -85,7 +87,9 @@ dwelling type
 
 dwelling unit type
 
-dwelling units
+dwelling units {#dwelling-units}
+: Each household inhabits a dwelling unit that is either a single-family dwelling, a multi-family dwelling, or group quarters.
+: [Additional details](https://github.com/gregorbj/Archive-VisionEval/blob/master/api/model_system_design.md#811-model-specification-and-estimation)
 
 eco-drive
 
@@ -155,9 +159,13 @@ lifecycle (well-to-wheels) carbon intensity
 
 lifecycle categories
 
-lifecycle
+lifecycle {#lifecycle}
+: A label used to describe the stage of life that a household's members are at. This is guessed at in VisionEval as a function of the number of adults, children, and workers in the household. This is assigned in the `AssignLifeCycle` module. It assumes one of 10 values defined in the [2009 NHTS LIF_CYC variable](https://nhts.ornl.gov/tables09/CodebookPage.aspx?id=1239)
+: [Additional details](https://github.com/gregorbj/Archive-VisionEval/blob/master/api/model_system_design.md#811-model-specification-and-estimation)
 
-location type
+location type {#location-type}
+: Each household is classified by whether its enclosing Bzone is located in an urban, town, or rural area. The `location_type` variable is defined for each Bzone.
+: [Additional details](https://github.com/gregorbj/Archive-VisionEval/blob/develop/api/VE_Training_March_13-14_2019/VE_Training.md#15-geographic-structure-of-a-visioneval-model)
 
 location types
 
