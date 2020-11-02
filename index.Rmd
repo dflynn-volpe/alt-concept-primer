@@ -12,15 +12,12 @@ github-repo: rstudio/bookdown-demo
 description: "This is an adaptation of the bookdown example for rehosting the VisionEval Concepts Primer."
 ---
 
-a[href='green'] {
-    color: green;
-    pointer-events: none;
-    cursor: default;
-    text-decoration: none;
-}
-
 # Preface {-}
 
-This is an adaptation of the VisionEval **Concepts Primer** put together by Tara Weidner. It reorganizes the content a bit and attempts to create a version with decent lexicon that doesn't get in the way of reading the text. In this adaptation VisionEval keywords are defined only in their first instance rather than every time they appear, as was the case in the original primer. In this version we will attempt to indicate keywords in <a href="green">green</a>, both in first and subsequent instances. However, Github strips colors using HTML tags, so we'll have to be clever about how we do this.
+This is an adaptation of the VisionEval **Concepts Primer** put together by Tara Weidner. It reorganizes the content a bit and attempts to create a version with decent lexicon that doesn't get in the way of reading the text. In this adaptation VisionEval a number of keywords stand out:
 
-One thing we want to quickly understand is how [_auto sufficiency_](https://github.com/rickdonnelly/alt-concept-primer/blob/main/lexicon.md#auto-sufficiency) might be viewed in the text.
++ Certain keywords have specific meaning when describing constructs in VisionEval, and are colored green in the text. For example, you will see [<span style="color:green">age groups</span>][lexicon] often in the text. You can click on any of these links to open a lexicon in a separate window. You can scroll to the specific term you're interested in. This concept primer and the lexicon are meant to be used together (i.e., opened in separate windows).
++ Links to other documents and websites [appear as clickable blue text](https://visioneval.org), like this one that will take you to the VisionEval front page.
++ Specific variable or filenames are shown in `offset text`. For example, you might see a reference to the `FudgeFactor` in the `ModuleName` module. These keywords are generally **not** clickable for variable names, but often are for module names.
+
+[lexicon]: https://github.com/rickdonnelly/alt-concept-primer/blob/main/lexicon.md

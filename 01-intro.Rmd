@@ -33,7 +33,7 @@ Traditional travel forecasting models divide a study area into thousands of traf
 + A `region` defines the entire area covered by the VisionEval analyses
 + `Azone`s are large areas such as cities, counties, or Public Use Microdata Areas (PUMAs)
 + `Bzone`s are subdivisions of Azones that represent neighborhoods, Census tracts or block groups, or other relatively homogenous areas
-+ Metropolitan areas (`Marea`s) are defined as groups of Azones that define them
++ [<span style="color:green">Metropolitan areas</span>][lexicon] (Marea) are defined as groups of Azones that define them
 
 The _location type_ of each household is also coded as urban, town, or rural areas. A _place type_ is also defined in terms of urban density and its mix of jobs and housing. Both are usually defined for each Bzone used in the model.
 
@@ -50,12 +50,12 @@ The following table summarizes many of the possible performance metrics that can
 
 + Economy
     + Annual all vehicle delay per capita (hours)
-    + Daily household parking costs
-    + Annual household vehicle operating cost (fuel, taxes, parking)
-    + Annual household ownership costs (depreciation, vehicle maintenance, tires, finance charge, insurance, registration)
+    + Daily household [<span style="color:green">parking costs</span>][lexicon]
+    + Annual household [<span style="color:green">vehicle operating cost</span>][lexicon] (fuel, taxes, parking)
+    + Annual household [<span style="color:green">auto ownership costs</span>][lexicon] (depreciation, vehicle maintenance, tires, finance charge, insurance, registration)
 
 + Land Use
-    + Number or percent of residents living in mixed use areas
+    + Number or percent of residents living in [<span style="color:green">mixed use</span>][lexicon] areas
     + Number of dwelling by housing type (e.g., single family [SF], multi-family [MF])
 
 + Environmental
@@ -66,8 +66,8 @@ The following table summarizes many of the possible performance metrics that can
 
 + Energy
     + Annual per capita fuel consumption for all vehicles (gallons)
-    + Average fuel efficiency (net miles per gallon) for all vehicles
-    + Annual external social costs per households (total/percent paid)
+    + Average [<span style="color:green">fuel efficiency</span>][lexicon] (net miles per gallon) for all vehicles
+    + Annual external [<span style="color:green">social costs</span>][lexicon] per households (total/percent paid)
 
 <!-- 
 _Specific list of metrics under each category above could correspond to standard CSV/GUI outputs we are working on. ODOT outputs use classification above, like in [RV Strategic Assessment Report](https://www.rvmpo.org/images/studies/2015-strategic-assessment/Strategic_Asessment_Final_Report.pdf)  (Table 2 basic scenarios & appendix Table 3C for selected unidimensional multiruns)._

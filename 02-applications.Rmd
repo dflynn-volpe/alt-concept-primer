@@ -26,38 +26,38 @@ VisionEval is well suited for evaluating a wide range of local policies at varyi
 
 + LandUse (Bzone)
     + Employment by type (Total, Retail, Service)
-    + Dwelling units by type (SF, MF)
-    + Income quartiles (for allocating households to dwelling units)
-    + Share of households in Urban Mixed Use areas (optional)
-    + Built Form Ds (Design & Transit)
+    + [<span style="color:green">Dwelling units</span>][lexicon] by type (SF, MF)
+    + Income quartiles (for allocating households to [<span style="color:green">Dwelling units</span>][lexicon])
+    + Share of households in [<span style="color:green">Urban Mixed Use</span>][lexicon] areas (optional)
+    + [<span style="color:green">5D built form measures</span>][lexicon] (Design & Transit)
     + Acres, centroid latitude and longitude
 
 + Actions
-    + Road lane-miles (freeways, arterials) (Marea)
-    + Transit Service (service miles by transit mode) (Marea)
-    + Car Service costs, substitutability & access time (Azone)
-    + Short Trips SOV Diversion (bike, personal electrics, etc.) (Azone)
-    + ITS-Operations (Ramp metering, Incident response, (Marea)
-    + ITS-Speed smoothing (Freeway ATM, Art Signal optimization) (Marea)
-    + VMT covered by Drivers in Eco-Drive programs (Marea)
+    + [<span style="color:green">Road lane-miles</span>][lexicon] (freeways, arterials) (Marea)
+    + [<span style="color:green">Transit Service</span>][lexicon] (service miles by transit mode) (Marea)
+    + [<span style="color:green">Short Trips SOV Diversion</span>][lexicon]Short Trips SOV Diversion costs, substitutability & access time (Azone)
+    + [<span style="color:green">Short Trips SOV Diversion</span>][lexicon] (bike, personal electrics, etc.) (Azone)
+    + [<span style="color:green">ITS</span>][lexicon] Operations (Ramp metering, Incident response, (Marea)
+    + ITS [<span style="color:green">speed smoothing</span>][lexicon] (Freeway ATM, Art Signal optimization) (Marea)
+    + VMT covered by Drivers in [<span style="color:green">Eco-Drive</span>][lexicon] programs (Marea)
     + EV Charging infrastructure (residential) (Azone)
 
 + Pricing
     + Fuel and electricity costs (Azone)
     + Road Cost Recovery – Registration Fee, gas taxes, VMT fee (Azone)
-    + Carbon Pricing (social cost recovery) (Region)
-    + Congestion Fees (Marea)
-    + PAYD insurance participation (Azone)
+    + [<span style="color:green">Carbon Pricing </span>][lexicon](social cost recovery) (Region)
+    + [<span style="color:green">Congestion Fees</span>][lexicon] (Marea)
+    + [<span style="color:green">PAYD insurance</span>][lexicon] participation (Azone)
 
 + Vehicle, Fuels, & Emissions
-    + Electricity Carbon Intensity (Azone)
-    + Fuel Carbon Intensity (composites by vehicle group) (Region)
+    + Electricity [<span style="color:green">carbon intensity</span>][lexicon] (Azone)
+    + Fuel [<span style="color:green">carbon intensity</span>][lexicon] (composites by vehicle group) (Region)
     + LDV-HH percent Light Trucks (stock) (Azone)
-    + LDV-HH vehicle age average (Azone)
+    + LDV-HH [<span style="color:green">vehicle age</span>][lexicon] average (Azone)
     + LDV CarService, vehicle mix (stock) (Region)
     + Transit vehicles & fuels mix (Marea)
     + LDV CommService vehicle mix, %Light Trucks (stock) (Region)
-    + Heavy truck vehicle mix (stock) (Region)
+    + [<span style="color:green">Heavy truck</span>][lexicon] vehicle mix (stock) (Region)
 
 ## Scenario analyses
 
